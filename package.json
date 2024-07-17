@@ -1,0 +1,20 @@
+{
+  "name": "odin-knights-travails",
+  "version": "1.0.0",
+  "description": "Knight's Travails project for The Odin Project learning",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npx webpack",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-bundler-webpack-plugin": "^3.15.1",
+    "sass-loader": "^14.2.1",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
